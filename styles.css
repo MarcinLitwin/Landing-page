@@ -4,8 +4,11 @@ body {
     justify-content: space-between;
     padding: 0px;
     margin: 0px;
+    font-family: sans-serif;
 }
-
+button {
+    color: #f9faf8;
+}
 a {
     text-decoration: none;
     color: white;
@@ -17,7 +20,27 @@ ul {
     gap: 20px;
     margin: 0px;
 }
+/*
+.firstSegment,
+.secondSegment,
+.thirdSegment,
+.fourthSegment,
+.footer {
+    padding-left: 60px;
+    padding-right: 60px;
+} */
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 200px 0 200px;
+    background-color: #1f2937;
+    color: white;
+}
+.header .logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
 /* first segment */
 
 .firstSegment,
@@ -25,56 +48,65 @@ ul {
     background-color: #1f2937;
     color: white;
     margin: 0px;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
+    padding: 0 200px;
 }
 
 .firstSegment {
+    display: flex;
     flex-direction: column;
-    height: 400px;
+    justify-content: center;
+    height: 500px;
+    align-items: flex-start;
+}
+
+.firstSegment button {
+    border: none;
+    margin: 0;
 }
 
 .firstContent {
     display: flex;
     align-items: center;
     justify-content: center;
-    align-content: center;
     padding-top: 70px;
     padding-bottom: 70px;
 }
 
 .firstImage {
     height: auto;
-    width: 400px;
+    width: 500px;
+    padding: 40px;
+    padding-right: 0;
 }
 .leftText {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .sign {
-    background-color: #3882f6;
     align-self: flex-start;
-    padding: 10px 30px;
 }
 
-.firstTitle {
+.leftText .firstTitle {
     font-size: 48px;
     font-weight: bolder;
+}
+.leftText div,
+.headerLinks {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 /* Second Segment */
 
 .secondSegment {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    height: 350px;
+    align-content: center;
+    height: 450px;
+    padding: 0 200px;
 }
 
 .bottomText {
@@ -91,7 +123,10 @@ ul {
 
 .topText {
     margin: 40px;
-    font-size: 30px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 10px;
 }
 
 .underText {
@@ -106,33 +141,62 @@ ul {
 
 .thirdSegment {
     background-color: #e5e7eb;
-    height: 300px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 200px;
 }
 
 .thirdText {
     display: flex;
     flex-direction: column;
+    padding: 110px;
 }
 
 .author {
     align-self: flex-end;
 }
 
+.citation {
+    font-size: 36px;
+    font-family: light italic;
+    color: #1f2937;
+}
+
 /* fourth segment */
 
 .fourthSegment {
-    height: 250px;
+    height: 300px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding: 0 200px;
+    margin: 0;
 }
 
 .fourthText {
     background-color: #3882f6;
-    padding: 20px;
+    padding: 40px 70px;
+    align-self: center;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+button {
+    background: #3882f6;
+    border: 2px solid #f9faf8;
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.fourthTitle {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 /* footer */
@@ -141,4 +205,5 @@ ul {
     justify-content: center;
     align-items: center;
     height: 60px;
+    padding: 0 200px;
 }
