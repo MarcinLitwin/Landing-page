@@ -1,0 +1,144 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0px;
+}
+
+/* first segment */
+
+.firstSegment,
+.footer {
+    background-color: #1f2937;
+    color: white;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.firstSegment {
+    flex-direction: column;
+    height: 400px;
+}
+
+.firstContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.firstImage {
+    height: auto;
+    width: 400px;
+}
+.leftText {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sign {
+    background-color: #3882f6;
+    align-self: flex-start;
+    padding: 10px 30px;
+}
+
+.firstTitle {
+    font-size: 48px;
+    font-weight: bolder;
+}
+/* Second Segment */
+
+.secondSegment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.bottomText {
+    display: flex;
+}
+
+.imageOne {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topText {
+    margin: 40px;
+    font-size: 30px;
+}
+
+.underText {
+    text-align: center;
+    margin-top: 10px;
+}
+.topImage img {
+    height: 150px;
+    width: auto;
+}
+/* third segment */
+
+.thirdSegment {
+    background-color: #e5e7eb;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirdText {
+    display: flex;
+    flex-direction: column;
+}
+
+.author {
+    align-self: flex-end;
+}
+
+/* fourth segment */
+
+.fourthSegment {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourthText {
+    background-color: #3882f6;
+    padding: 20px;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
